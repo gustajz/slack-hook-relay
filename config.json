@@ -1,0 +1,12 @@
+{
+   "http.port":8080,
+   "relays":[
+      {
+         "path":"/teste",
+         "hooks":[
+            { "team":"CWI", "channel": "#general", "url":"https://hooks.slack.com/services/XXXXXX/YYYYYYYYY" },
+            { "team":"Jotz", "url":"https://hooks.slack.com/services/XXXXXX/ZZZZZZZZZZZZZZ" }
+         ]
+      }
+   ]
+}
